@@ -27,7 +27,7 @@ end
 
 def using_delete_at(array, integer)
   famous_robots = ["Johnny 5", "R2D2", "Robocop"]
-  deleted_robot = famous_robots.delete_at("Robocop")
+  deleted_robot = famous_robots.delete_at("Robocop", famous_robots[2])
 end
 describe "using_delete_at" do 
   it "takes in two arguments, an array and an integer and deletes the element at the index of the array that is equal to that integer" do 
