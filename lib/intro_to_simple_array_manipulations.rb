@@ -25,8 +25,8 @@ def using_delete(array, string)
   array.delete("Steven")
 end
 
-def using_delete_at(array, 2)
-  @famous_robots = ["Johnny 5", "R2D2", "Robocop"]
-  @deleted_robot = @famous_robots.delete_at("Robocop")
+def using_delete_at(array)
+  famous_robots = ["Johnny 5", "R2D2", "Robocop"]
+  deleted_robot = array.delete_at("Robocop")
 end
 
