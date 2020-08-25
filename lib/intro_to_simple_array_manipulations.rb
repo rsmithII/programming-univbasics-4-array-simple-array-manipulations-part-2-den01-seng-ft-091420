@@ -27,6 +27,6 @@ end
 
 def using_delete_at(famous_robots)
   @famous_robots = ["Johnny 5", "R2D2", "Robocop"]
-  @deleted_robot = @famous_robots.delete_at(famous_robots, 2)
+  @deleted_robot = @famous_robots.delete_at(famous_robots)
 end
 
