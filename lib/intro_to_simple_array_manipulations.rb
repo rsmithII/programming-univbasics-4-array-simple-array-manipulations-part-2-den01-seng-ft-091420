@@ -20,7 +20,7 @@ def using_flatten(instruments)
   @flat_array = @instruments.flatten
 end
 
-def using_delete(instructors, "Steven")
+def using_delete(instructors)
   instructors.delete("Steven")
   puts instructors
 end
